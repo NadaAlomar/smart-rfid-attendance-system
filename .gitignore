@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.token
+*.secret
+
+# Database
+*.db
+*.db-wal
+*.db-shm
+*.db.bak*
+backups/
+
+# Logs
+*.log
+
+# Local data
+data/*
+!data/.gitkeep
+
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
